@@ -1,3 +1,33 @@
-#page-header h1 {
+body {
+  background-color: black;
+}
+#page-header h1{
   color: red;
+}
+#paragraph1 {
+  color: rosybrown
+}
+
+.row{
+  vertical-align: middle;
+}
+
+.ones{
+  float:left;
+}
+.twos {
+  float:right;
+}
+
+.middles {
+  position: absolute;
+  left:50%;
+  transform: translateX(-50%)
+}
+
+#nextmiddle {
+  position: absolute;
+  top:50%;
+  transform:translateY(-50%);
+
 }
